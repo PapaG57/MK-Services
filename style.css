@@ -1,0 +1,81 @@
+/*----- CODES GéNéRAUX -----*/
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0px;
+	padding: 0px;
+	color: #3a3430;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 13px;
+	line-height:1.5em; 
+	background-color: #e1e1e1;
+}
+
+.logo-site {
+	width: 120px;
+	height: 120px;
+}
+
+a, a:link, a:visited {
+	color: #2d607f;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+p {
+	text-align: justify;
+	text-decoration: none;
+	margin: 0px; padding: 0 0 10px 0;
+}
+
+img {
+	border: none;
+}
+
+h1 {
+	font-size: 40px; font-weight: bold; margin: 0 0 30px 0; padding: 5px 0; color: #000;
+}
+
+h2 {
+	font-size: 32px; font-weight: normal; line-height: 28px; margin: 0 0 30px 0; padding: 0; color: #000;
+}
+
+h3 {
+	font-size: 21px; margin: 0 0 20px 0; padding: 0; padding: 0; color: #000;
+}
+
+h4 {
+	font-size: 18px; font-weight: normal; margin: 0 0 20px 0; padding: 0; color: #000;
+}
+
+h5 {
+	font-size: 16px; margin: 0 0 10px 0; padding: 0; color: #333;
+}
+
+h6 {
+	font-size: 14px; margin: 0 0 5px 0; padding: 0;
+}
+
+/*----- FIN CODES GéNéRAUX -----*/
+
+/*----- HEADER -----*/
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 90%;
+}
+
+
+
+/*----- FIN HEADER -----*/
