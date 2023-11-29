@@ -16,11 +16,6 @@ body {
 	background-color: #e1e1e1;
 }
 
-.logo-site {
-	width: 120px;
-	height: 120px;
-}
-
 a, a:link, a:visited {
 	color: #2d607f;
 	text-decoration: none;
@@ -30,10 +25,18 @@ a:hover {
 	text-decoration: none;
 }
 
-p {
-	text-align: justify;
+span {
+	color: #bf4300;
+	font-weight: bold;
+}
+
+ul {
+	list-style: none;
 	text-decoration: none;
-	margin: 0px; padding: 0 0 10px 0;
+}
+
+ul li {
+	color: #1877f2;
 }
 
 img {
@@ -70,12 +73,30 @@ h6 {
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: auto;
     width: 90%;
+	background-color: #ffffff;
+	padding-bottom: 30px;
 }
 
+.logo-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.logo {
+	width: 120px;
+	height: 120px;
+}
+
+.titre-header {
+	font-size: 2rem;
+	color: #bf4300;
+}
 
 
 /*----- FIN HEADER -----*/
