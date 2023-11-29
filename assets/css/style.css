@@ -35,10 +35,6 @@ ul {
 	text-decoration: none;
 }
 
-ul li {
-	color: #1877f2;
-}
-
 img {
 	border: none;
 }
@@ -79,6 +75,8 @@ header {
     width: 90%;
 	background-color: #ffffff;
 	padding-bottom: 30px;
+	margin-bottom: 15px;
+	border-radius: 10px;
 }
 
 .logo-header {
@@ -89,14 +87,43 @@ header {
 }
 
 .logo {
-	width: 120px;
-	height: 120px;
+	width: 140px;
+	height: 140px;
 }
 
 .titre-header {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	color: #bf4300;
 }
 
+/* .current {
+	color: #fec823;
+} */
 
 /*----- FIN HEADER -----*/
+
+/*----- MENU -----*/
+
+.menu {
+	height: auto;
+    width: 90%;	
+	background-color: #346a8a;
+	border-radius: 10px;
+}
+
+.text-menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+
+.text-menu ul li a {
+	text-transform: uppercase;
+	font-size: 1rem;
+	color: #ffffff;
+}
+
+.text-menu ul li a:hover, .text-menu ul li .current {
+	color: #fec823;
+}
