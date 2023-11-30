@@ -70,7 +70,6 @@ p {
 
 a {
 	text-decoration: none;
-	color: #ffffff;
 }
 
 h1 {
@@ -326,7 +325,7 @@ header {
 }
 
 .button {
-	background-color: #346a8a;
+	background-color: #ffffff;
 	border-radius: 10px;
 	padding: 5px;
 }
@@ -338,7 +337,7 @@ header {
 
 .button2 {
 	display: none;
-	background-color: #346a8a;
+	background-color: #ffffff;
 	border-radius: 10px;
 	padding: 5px;
 }
@@ -508,6 +507,10 @@ header {
 
 @media screen and (max-width: 350px) {
 
+	body {
+		gap: 10px;
+	}
+
 	/* HEADER */
 	.titre-header {
 		font-size: 0.6rem;
@@ -517,6 +520,16 @@ header {
 		width: 60px;
 		height: 60px;
 	}
+
+	/* NAVBAR */
+	.text-menu {
+		gap: 15px;
+	}
+
+	.text-menu a {
+		font-size: 0.6rem;
+	}
+
 
 	/* MIDDLE CONTENT */
 	.middle-content {
@@ -552,6 +565,10 @@ header {
 		font-size: 18px;
 	}
 
+	h3 {
+		font-size: 10px;
+	}
+
 	.svg-wrapper {
 		display: none;
 	}
@@ -560,4 +577,40 @@ header {
 		display: block;
 	}
 
+	section {
+		flex-direction: column;
+	}
+
+	section p {
+		font-size: 12px;
+	}
+
+	.presi-text {
+		padding: 0;
+		width: 95%;
+	}
+
+	.img-presi {
+		width: 90px;
+		height: 90px;
+	}
+
+	.margin-b20 {
+		display: none;
+	}
+
+	.our-desk, .desk {
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.img-bureau {
+		width: 120px;
+		height: 90px;
+	}
+
+	/* FOOTER */
+	.align-div {
+		flex-direction: column;
+	}
 }
