@@ -1,4 +1,4 @@
-/*----- CODES GéNéRAUX -----*/
+/*----- GENERAL CODES -----*/
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
@@ -45,14 +45,36 @@ nav ul a.current {
 ul {
 	list-style: none;
 	text-decoration: none;
+	margin: 0;
+	padding: 0;
 }
 
 img {
 	border: none;
 }
 
+span {
+	color: #fec823;
+	font-weight: bold;
+}
+
+.span2 {
+	color: #293998;
+	font-weight: bold;
+}
+
+p {
+	font-size: 1rem;
+	color: #000000;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
 h1 {
-	font-size: 40px; font-weight: bold; margin: 0 0 30px 0; padding: 5px 0; color: #000;
+	font-size: 2rem; font-weight: bold; margin: 0 0 30px 0; padding: 5px 0; color: #000000;
 }
 
 h2 {
@@ -63,7 +85,7 @@ h3 {
 	font-size: 21px; margin: 0 0 20px 0; padding: 0; padding: 0; color: #000;
 }
 
-h4 {
+/* h4 {
 	font-size: 18px; font-weight: normal; margin: 0 0 20px 0; padding: 0; color: #000;
 }
 
@@ -73,9 +95,55 @@ h5 {
 
 h6 {
 	font-size: 14px; margin: 0 0 5px 0; padding: 0;
+} */
+
+section {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+	width: 95%;
+	padding: 10px;
 }
 
-/*----- FIN CODES GéNéRAUX -----*/
+footer {
+	width: 95%;
+	padding: 20px 0;
+	border-top: 1px solid #000000;
+	background: #346a8a;
+	text-align: center;
+	color: #000000;
+	border-radius: 10px;
+}
+
+.margin-t20 {
+	margin-top: 20px;
+}
+.margin-b20 {
+	margin-bottom: 20px;
+}
+
+hr {
+	border: 1px double #333333;
+	background-color: #333333;
+	text-align: center;
+	height: 2px;
+	width: 70%;
+	margin-top: 25px;
+}
+
+.picture-frame {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: auto;
+	background-color: #346a8a;
+	border: solid 1px #000000;
+	padding: 10px;
+}
+
+/*----- END GENERAL CODES -----*/
 
 /*----- HEADER -----*/
 
@@ -84,14 +152,13 @@ header {
     justify-content: space-around;
     align-items: center;
     height: auto;
-    width: 90%;
+    width: 95%;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,
 	0,
 	0,
 	0.5)), url(/assets/pictures/tab_mk-services-header.png);
 	background-size: cover;
 	padding-bottom: 20px;
-	margin-bottom: 15px;
 	border-radius: 10px;
 }
 
@@ -121,13 +188,17 @@ header {
 	color: #ff3a3a;
 }
 
-/*----- FIN HEADER -----*/
+/*----- END HEADER -----*/
 
-/*----- MENU -----*/
+/*----- NAVBAR -----*/
 
 .menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: auto;
-    width: 90%;	
+    width: 95%;	
+	height: 40px;
 	background-color: #346a8a;
 	border-radius: 10px;
 }
@@ -145,16 +216,348 @@ header {
 	font-weight: bold;
 }
 
-/*----- FIN MENU -----*/
+/*----- END NAVBAR -----*/
 
 /*----- MIDDLE CONTENT -----*/
 
 .middle-content {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
-	gap: 40px;
-	height: auto;
-	width: 90%;
-	background-color: #e1e1e1;
+	flex-direction: column;
+	width: 95%;
+	height: 280px;
+	background: url(/assets/pictures/banner_middle-content.jpg);
+	border-radius: 10px;
+}
+
+.middle-text {
+	/* display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column; */
+	text-align: justify;
+	color: #ffffff;
+	width: 50%;
+	margin-left: -100px;
+}
+
+/* button */
+.svg-wrapper {
+	position: relative;
+	top: 15%;
+	left: -4%;
+	transform: translateY(-50%);
+	margin: 0 auto;
+	width: 320px;  
+}
+
+.shape {
+	stroke-dasharray: 140 540;
+	stroke-dashoffset: -474;
+	stroke-width: 8px;
+	fill: transparent;
+	stroke: #19f6e8;
+	border-bottom: 5px solid black;
+	transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+
+.text-button {
+	position: relative;
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: bold;
+	top: -44px;
+	left: 20%;
+}
+
+.svg-wrapper:hover .shape {
+	stroke-width: 2px;
+	stroke-dashoffset: 0;
+	stroke-dasharray: 760;
+}
+/* end button */
+
+/*----- END MIDDLE CONTENT -----*/
+
+/*----- SECTION MIDDLE TEXT -----*/
+
+.presi-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 250px;
+}
+
+.img-presi {
+	width: 140px;
+	height: 140px;
+}
+
+.presi-text {
+	padding: 20px;
+	width: 700px;
+	text-align: justify;
+}
+
+.product {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 230px;
+	padding: 15px;
+	border: solid 1px #000000;
+}
+
+.logo-list {
+	margin: 20px 0;
+	padding: 0;
+	list-style: none;
+}
+
+.logo-list li {
+	background: transparent url(/assets/pictures/arrow.jpeg) no-repeat scroll 0 0px;
+	margin:0 0 10px;
+	padding:0 0 0 25px;
+	line-height: 1em;
+}
+
+.button {
+	background-color: #346a8a;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.button:hover {
+	box-shadow: #333333 3px 3px 3px;
+}
+
+
+.button2 {
+	display: none;
+	background-color: #346a8a;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.button2:hover {
+	box-shadow: #333333 3px 3px 3px;
+}
+
+.img-bureau {
+	width: 180px;
+	height: 150px;
+}
+
+.our-desk {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}
+
+.desk {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 70px;
+}
+
+.adress {
+	display: flex;
+	flex-direction: column;
+}
+
+.adress ul {
+	margin-left: 30px;
+	font-weight: bold;
+}
+
+/*----- END SECTION MIDDLE TEXT -----*/
+
+/*----- FOOTER -----*/
+
+.logo-site {
+	width: 120px;
+	height: 120px;
+}
+
+.align-horizon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.align-div {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	gap: 50px;
+}
+
+.logo-fgdev {
+	width: 180px;
+	height: 80px;
+}
+
+.icon-face {
+	color: #729cb6;
+}
+
+.icon-face:hover {
+	color: #1877f2;
+}
+
+.icon-what:hover {
+	color: #25D366;
+}
+
+.align-ul {
+	display: flex;
+	align-items: start;
+	flex-direction: column;
+}
+
+.align-vertical {
+	display: flex;
+	align-items: start;
+	flex-direction: column;
+}
+
+.home-menu {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-menu a {
+	font-size: 1rem;
+	color: #000000;
+	font-weight: bold;
+}
+
+.footer-menu a:hover {
+	color: #fec821;
+}
+
+/*----- END FOOTER -----*/
+
+/*----- RESPONSIVE PAGE INDEX -----*/
+
+/* responsive tablette */
+
+@media screen and (max-width: 992px) {
+
+	/* HEADER */
+	.titre-header {
+		font-size: 1.2rem;
+	}
+
+	/* MIDDLE CONTENT */
+	.middle-content {
+		background: url(/assets/pictures/banner_middle-content-992px.jpg) no-repeat;
+	}
+
+	.middle-text {
+		width: 50%;
+		margin-left: 60px;
+	}
+
+	.middle-content p {
+		padding: 0;
+		margin: 0;
+	}
+
+	span {
+		font-size: 1rem;
+	}
+
+	h1 {
+		font-size: 1.4rem;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+
+	h3 {
+		font-size: 15px;
+	}
+
+	.text-button a {
+		font-size: 0.8rem;
+	}
+
+		/* FOOTER */
+	.footer-menu p {
+		font-size: 0.8rem;
+	}
+
+	.adress em {
+		font-size: 0.8rem;
+	}
+
+	.align-horizon {
+		flex-direction: column;
+	}
+}
+
+/* responsive smartphone */
+
+@media screen and (max-width: 350px) {
+
+	/* HEADER */
+	.titre-header {
+		font-size: 0.6rem;
+	}
+
+	.logo {
+		width: 60px;
+		height: 60px;
+	}
+
+	/* MIDDLE CONTENT */
+	.middle-content {
+		background-image: none;
+		background-color: #346a8a;
+		height: 250px;
+	}
+
+	.middle-text{
+		width: 280px;
+		margin-left: 60px;
+		margin: 0;
+		padding: 0;
+	}
+
+	.middle-text p {
+		font-size: 0.6rem;
+	}
+
+	span {
+		font-size: 0.6rem;
+	}
+
+	.span2 {
+		font-size: 0.6rem;
+	}
+
+	h1 {
+		font-size: 0.8rem;
+	}
+
+	h2 {
+		font-size: 18px;
+	}
+
+	.svg-wrapper {
+		display: none;
+	}
+
+	.button2 {
+		display: block;
+	}
+
 }
