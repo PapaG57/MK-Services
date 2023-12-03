@@ -231,10 +231,6 @@ header {
 }
 
 .middle-text {
-	/* display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column; */
 	text-align: justify;
 	color: #ffffff;
 	width: 50%;
