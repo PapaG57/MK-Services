@@ -164,8 +164,11 @@ header {
 .logo-header {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+	align-items: center;;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #ff3a3a;
 }
 
 .titre-header {
@@ -173,18 +176,16 @@ header {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	gap: 20px;
 	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #ffffff;
 }
 
 .logo {
 	width: 140px;
 	height: 140px;
-}
-
-.titre-header {
-	font-size: 1.5rem;
-	font-weight: bold;
-	color: #ff3a3a;
 }
 
 /*----- END HEADER -----*/
