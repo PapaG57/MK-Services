@@ -374,6 +374,55 @@ header {
 
 /*----- END SECTION MIDDLE TEXT -----*/
 
+/*----- MIDDLE CONTENT CATALOGUE -----*/
+
+.middle-content-catalogue {
+	width: 95%;
+}
+
+.all-card {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+
+.card-content {
+	padding: 5px;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    border: solid 1px #ffffff;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-align: center;
+    box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
+}
+
+.card-tittle {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2F6280;
+	height: 50px;
+}
+
+.thumbnail {
+	width: 180px;
+    height: 160px;
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+	color: #ffffff;
+}
+
+/*----- FIN DE MIDDLE CONTENT CATALOGUE -----*/
+
+
 /*----- FOOTER -----*/
 
 .logo-site {
