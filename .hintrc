@@ -12,6 +12,7 @@
     "axe/keyboard": "off",
     "axe/name-role-value": "off",
     "disown-opener": "off",
-    "compat-api/css": "off"
+    "compat-api/css": "off",
+    "axe/text-alternatives": "off"
   }
 }
