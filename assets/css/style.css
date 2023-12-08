@@ -456,6 +456,12 @@ header {
 	align-items: center;
 }
 
+.align-vertical {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
 .align-div {
 	display: flex;
 	align-items: center;
@@ -481,12 +487,6 @@ header {
 }
 
 .align-ul {
-	display: flex;
-	align-items: start;
-	flex-direction: column;
-}
-
-.align-vertical {
 	display: flex;
 	align-items: start;
 	flex-direction: column;
