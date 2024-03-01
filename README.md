@@ -16,7 +16,7 @@ Société de vente de produits domiciliée à Bangui, capitale de la Centrafriqu
   - Maroquinerie
   - Electroménager
 
-# ADRESSE
+# LEUR BUREAU
 
   _ MK Services
    _ avenue Boganda
