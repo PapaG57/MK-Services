@@ -1,6 +1,10 @@
 /*----- GENERAL CODES -----*/
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@font-face {
+    font-family: 'Work sansWorkSans-VariableFont_wght';
+    src: url('../font/Work_Sans/WorkSans-VariableFont_wght.ttf') format('truetype'); /* On peut jouter d'autres formats de police si nécessaire */
+}
+
 
 body {
 	display: flex;
