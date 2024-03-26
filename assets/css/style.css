@@ -28,7 +28,7 @@ nav ul a {
 
 /* Style pour les liens visités */
 nav ul a:visited {
-	color: black;
+	color: #7b218d;
 }
 
 /* Style pour les liens au survol de la souris */
