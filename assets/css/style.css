@@ -406,7 +406,7 @@ header {
 
 .all-card {
 	display: flex;
-	justify-content: center;
+	justify-content: start;
 	flex-wrap: wrap;
 	gap: 40px;
 }
