@@ -406,9 +406,10 @@ header {
 
 .all-card {
 	display: flex;
-	justify-content: start;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
-	gap: 40px;
+	gap: 30px;
+	margin: 35px;
 }
 
 .card-content {
