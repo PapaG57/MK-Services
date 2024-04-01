@@ -522,6 +522,10 @@ header {
 /*----- SUB FOOTER -----*/
 
 .subfooter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 	width: 95%;
 	padding: 20px 0;
 	border-top: 1px solid #000000;
@@ -532,14 +536,31 @@ header {
 	border-radius: 10px;
 }
 
-.subfooter h1, .subfooter h2 {
-	color: #ffffff !important;
+.subfooter h1 {
+	color: #770000;
 }
 
 table, caption, th, td {
-	border: 2px solid #ffffff;
+	display: flex;
+	justify-content: flex-start;
+	gap: 10px;
+	padding: 10px;
+	border: 1px solid #000000;
 	font-size: 1.2rem;
-	}
+}
+
+caption, th {
+	display: flex;
+	align-items: center;
+	color: #770000;
+}
+
+td {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	color: #fec823;
+}
 
 /*----- FOOTER -----*/
 
