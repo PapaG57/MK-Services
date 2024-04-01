@@ -398,6 +398,7 @@ header {
 	text-transform: uppercase;
 	background-color: #346a8a;
 	color: #fec823;
+	font-weight: 700;
 	font-size: 1.2rem;
 	border-radius: 10px;
 	border: solid 1px #000000;
