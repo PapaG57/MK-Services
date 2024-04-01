@@ -655,7 +655,7 @@ header {
 
 	/* HEADER */
 	.titre-header {
-		font-size: 0.6rem;
+		font-size: 0.5rem;
 	}
 
 	.logo {
@@ -672,6 +672,12 @@ header {
 		font-size: 0.6rem;
 	}
 
+	/* TITLE CONTENT */
+
+	.titre-produit {
+		width: auto;
+		padding: 5 20px 5 20px;
+	}
 
 	/* MIDDLE CONTENT */
 	.middle-content {
