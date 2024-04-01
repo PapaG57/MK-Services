@@ -119,6 +119,7 @@ footer {
 	font-weight: bold;
 	border: solid 1px #ffffff;
 	border-radius: 10px;
+	box-shadow: 0 10px 20px #333333, 0 6px 6px #0000003b;
 }
 
 .margin-t20 {
@@ -166,6 +167,7 @@ header {
 	padding-bottom: 20px;
 	border-radius: 10px;
 	border: solid 1px #ffffff;
+	box-shadow: 0 10px 20px #333333, 0 6px 6px #0000003b;
 }
 
 .logo-header {
@@ -209,6 +211,7 @@ header {
 	background-color: #346a8a;
 	border-radius: 10px;
 	border: solid 1px #ffffff;
+	box-shadow: 0 10px 20px #333333, 0 6px 6px #0000003b;
 }
 
 .text-menu {
@@ -238,6 +241,7 @@ header {
 	background: url(../pictures/banner_middle-content.jpg);
 	border-radius: 10px;
 	border: solid 1px #ffffff;
+	box-shadow: 0 10px 20px #333333, 0 6px 6px #0000003b;
 }
 
 .middle-text {
@@ -401,7 +405,7 @@ header {
 	font-weight: 700;
 	font-size: 1.2rem;
 	border-radius: 10px;
-	border: solid 1px #000000;
+	border: solid 1px #ffffff;
 	box-shadow: 0 10px 20px #333333, 0 6px 6px #0000003b;
 }
 
@@ -534,6 +538,7 @@ header {
 	font-weight: bold;
 	border: solid 1px #ffffff;
 	border-radius: 10px;
+	box-shadow: 0 10px 20px #333333, 0 6px 6px #0000003b;
 }
 
 .subfooter h1 {
