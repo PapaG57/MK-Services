@@ -556,10 +556,13 @@ caption, th {
 }
 
 td {
+	color: #fec823;
+}
+
+tbody {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
-	color: #fec823;
 }
 
 /*----- FOOTER -----*/
