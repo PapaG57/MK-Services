@@ -397,7 +397,7 @@ header {
 	padding: 10px;
 	text-transform: uppercase;
 	background-color: #346a8a;
-	color: #ffffff;
+	color: #fec823;
 	font-size: 1.2rem;
 	border-radius: 10px;
 	border: solid 1px #000000;
@@ -676,7 +676,7 @@ header {
 
 	.titre-produit {
 		width: auto;
-		padding: 5 20px 5 20px;
+		/* padding: 5 20px 5 20px; */
 	}
 
 	/* MIDDLE CONTENT */
