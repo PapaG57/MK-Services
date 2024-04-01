@@ -519,6 +519,27 @@ header {
 
 /*----- FIN DE MIDDLE CONTENT CATALOGUE -----*/
 
+/*----- SUB FOOTER -----*/
+
+.subfooter {
+	width: 95%;
+	padding: 20px 0;
+	border-top: 1px solid #000000;
+	background: #346a8a;
+	text-align: center;
+	font-weight: bold;
+	border: solid 1px #ffffff;
+	border-radius: 10px;
+}
+
+.subfooter h1, .subfooter h2 {
+	color: #ffffff !important;
+}
+
+table, caption, th, td {
+	border: 2px solid #ffffff;
+	font-size: 1.2rem;
+	}
 
 /*----- FOOTER -----*/
 
